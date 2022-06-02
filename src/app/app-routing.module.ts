@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
 
 const routes: Routes = [
+  {path:'',component:LandingpageComponent},
   {
     path:'dashboard',component: DashboardComponent
   },
