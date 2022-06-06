@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {path:'',component:LandingpageComponent},
-  {
-    path:'dashboard',component: DashboardComponent
-  },
+  {path:'',redirectTo:'landingpage',pathMatch:'full'},
+  {path:'admin', loadChildren:()=> import('./admin/admin.module').then((m)=>m.AdminModule)},{
+    path:'**', component: NotFoundComponent
+  }
 ];
 
 @NgModule({
@@ -15,4 +16,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [DashboardComponent, LandingpageComponent]
