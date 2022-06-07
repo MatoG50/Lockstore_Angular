@@ -1,10 +1,11 @@
-.container{
+.lan-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
     background-color: #f7f7f7;
+    font-family: 'montserrat';
 }
 .login-card{
     background-color: #ffffff;
@@ -20,6 +21,7 @@ img{
     text-align: center;
     font-size: 40px;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 input{
     width: 100%;
