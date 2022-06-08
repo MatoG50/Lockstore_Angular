@@ -1,0 +1,53 @@
+#sales-table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    width: 80%;
+    margin: 70px auto 0 auto;
+  }
+  
+  .table-header th {
+    height: 34px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    color: #24c6dc;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .table-rows {
+    height: 48px;
+    box-shadow: 0 3px 6px 0 rgba(36, 198, 220, 0.15);
+    background-color: #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+  .table-rows td {
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #6f6f6f;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  
+  td:first-child,
+  th:first-child {
+    border-radius: 25px 0 0 25px;
+    -webkit-border-radius: 25px 0 0 25px;
+    -moz-border-radius: 25px 0 0 25px;
+    -ms-border-radius: 25px 0 0 25px;
+    -o-border-radius: 25px 0 0 25px;
+  }
+  
+  td:last-child,
+  th:last-child {
+    border-radius: 0 25px 25px 0;
+    -webkit-border-radius: 0 25px 25px 0;
+    -moz-border-radius: 0 25px 25px 0;
+    -ms-border-radius: 0 25px 25px 0;
+    -o-border-radius: 0 25px 25px 0;
+  }

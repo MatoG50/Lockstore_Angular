@@ -1,0 +1,97 @@
+.total-prod {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6f6f6f;
+    margin-left: 100px;
+  }
+  .total-prod span {
+    color: #24c6dc;
+  }
+  #add-product {
+    width: 270px;
+    height: 52px;
+    margin-left: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #b43b8a;
+    display: block;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  #add-product:hover {
+    background-color: #b43b8abd;
+  }
+  #search {
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    border: none;
+    box-shadow: 0 3px 6px 0 rgba(36, 198, 220, 0.15);
+    border-radius: 34px;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+  }
+  
+  ::placeholder {
+    color: #24c6dc;
+  }
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .product-card {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    border-radius: 29px;
+    box-shadow: 0 3px 30px 0 rgba(36, 198, 220, 0.07);
+    background-color: #ffffff;
+  }
+  a {
+    text-decoration: none;
+  }
+  #product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 6% auto;
+  }
+  .product-name {
+    height: 22px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: #24c6dc;
+    text-transform: capitalize;
+    margin-bottom: 15%;
+  }
+  .inventory,
+  .cost {
+    height: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #6f6f6f;
+    text-align: center;
+    margin-top: 6%;
+    text-transform: capitalize;
+  }

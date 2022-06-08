@@ -1,0 +1,110 @@
+.total-emp {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6f6f6f;
+    margin-left: 100px;
+  }
+  .total-emp span {
+    color: #24c6dc;
+  }
+  .employee-no {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+  }
+  #add-employee,
+  .attendants,
+  .admin {
+    width: 300px;
+    height: 62px;
+    margin: 0 70px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .attendants {
+    border: solid 1px #3bb49d;
+    text-align: center;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  .admin {
+    border: solid 1px #b43b8a;
+    text-align: center;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  #add-employee {
+    background-color: #b43b8a;
+    display: block;
+    border-radius: 23px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  #add-employee:hover {
+    background-color: #b43b8ab7;
+  }
+  .admin p,
+  .attendants p {
+    padding-top: 15px;
+  }
+  .admin p {
+    color: #b43b8a;
+  }
+  .attendants p {
+    color: #3bb49d;
+  }
+  .employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .employee-card {
+    width: 300px;
+    height: 300px;
+    /* margin: 30px; */
+    margin: 10px auto;
+    border-radius: 29px;
+    box-shadow: 0 3px 30px 0 rgba(36, 198, 220, 0.07);
+    background-color: #ffffff;
+  }
+  #emp-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 10% auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .emp-name,
+  .emp-role {
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 7%;
+  }
+  .emp-role {
+    color: #6f6f6f;
+    font-size: 24px;
+  }
+  .emp-name {
+    color: #24c6dc;
+    font-size: 32px;
+  }
