@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-landingpage',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./landingpage.component.css']
 })
 export class LandingpageComponent implements OnInit {
-
-  constructor() { }
+// form:FormGroup;
+  constructor(
+    private formBuilder: FormBuilder
+  ) { }
 
   ngOnInit(): void {
+    // this.form = this.formBuilder.group(controlsConfig:{email:'', password:''})
   }
 
 }

@@ -1,8 +1,10 @@
 .nav-container{
     width: 20%;
-    position: fixed;    font-family: 'Montserrat', sans-serif;
+    /* position: fixed;     */
+    font-family: 'Montserrat', sans-serif;
     background-color: #ffff;
     min-height: 100vh;
+    float: left;
 
 }
 #logo-img {
@@ -52,3 +54,6 @@
   li a:hover {
     color: #24c7dcad;
   }
+  /* li:active{
+    color: #24c7dcad;
+  } */
